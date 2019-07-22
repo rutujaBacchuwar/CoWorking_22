@@ -12,7 +12,7 @@ RUN npm run build
 
 RUN echo $NG_CLI_ANYALYTICS
 
-WORKDIR /app/dist/coworking
+WORKDIR /app/dist/co-workingApp
 
 ENTRYPOINT ["http-server", "-c1", "-p", "80"]
 
